@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C9072F3261890450026FA50 /* Dishes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9072F2261890450026FA50 /* Dishes.swift */; };
 		2CAD4E8426186416005550FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAD4E8326186416005550FF /* AppDelegate.swift */; };
 		2CAD4E8626186416005550FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAD4E8526186416005550FF /* SceneDelegate.swift */; };
 		2CAD4E8B26186416005550FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CAD4E8926186416005550FF /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C9072F2261890450026FA50 /* Dishes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dishes.swift; sourceTree = "<group>"; };
 		2CAD4E8026186416005550FF /* Sushi & Wine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sushi & Wine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CAD4E8326186416005550FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CAD4E8526186416005550FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +44,7 @@
 		2C9072ED26188F0D0026FA50 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2C9072F2261890450026FA50 /* Dishes.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -49,6 +52,7 @@
 		2C9072EE26188F180026FA50 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2CAD4E982618865A005550FF /* DishesCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -56,15 +60,28 @@
 		2C9072EF26188F1E0026FA50 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2CAD4E9C261888F3005550FF /* MainViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		2C9072F026188F280026FA50 /* New Group */ = {
+		2C9072F026188F280026FA50 /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				2CAD4E8326186416005550FF /* AppDelegate.swift */,
+				2CAD4E8526186416005550FF /* SceneDelegate.swift */,
+				2CAD4E8C26186417005550FF /* Assets.xcassets */,
 			);
-			path = "New Group";
+			path = Application;
+			sourceTree = "<group>";
+		};
+		2C9072F126188FFE0026FA50 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				2CAD4E8E26186417005550FF /* LaunchScreen.storyboard */,
+				2CAD4E8926186416005550FF /* Main.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 		2CAD4E7726186416005550FF = {
@@ -86,17 +103,11 @@
 		2CAD4E8226186416005550FF /* Sushi & Wine */ = {
 			isa = PBXGroup;
 			children = (
-				2C9072F026188F280026FA50 /* New Group */,
-				2C9072EF26188F1E0026FA50 /* Controller */,
-				2C9072EE26188F180026FA50 /* View */,
+				2C9072F126188FFE0026FA50 /* Storyboard */,
+				2C9072F026188F280026FA50 /* Application */,
 				2C9072ED26188F0D0026FA50 /* Model */,
-				2CAD4E8326186416005550FF /* AppDelegate.swift */,
-				2CAD4E8526186416005550FF /* SceneDelegate.swift */,
-				2CAD4E8926186416005550FF /* Main.storyboard */,
-				2CAD4E9C261888F3005550FF /* MainViewController.swift */,
-				2CAD4E982618865A005550FF /* DishesCell.swift */,
-				2CAD4E8C26186417005550FF /* Assets.xcassets */,
-				2CAD4E8E26186417005550FF /* LaunchScreen.storyboard */,
+				2C9072EE26188F180026FA50 /* View */,
+				2C9072EF26188F1E0026FA50 /* Controller */,
 				2CAD4E9126186417005550FF /* Info.plist */,
 			);
 			path = "Sushi & Wine";
@@ -173,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CAD4E8426186416005550FF /* AppDelegate.swift in Sources */,
+				2C9072F3261890450026FA50 /* Dishes.swift in Sources */,
 				2CAD4E8626186416005550FF /* SceneDelegate.swift in Sources */,
 				2CAD4E992618865A005550FF /* DishesCell.swift in Sources */,
 				2CAD4E9D261888F3005550FF /* MainViewController.swift in Sources */,
