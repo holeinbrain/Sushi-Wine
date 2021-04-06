@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C0238542618D56500DC3997 /* Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0238532618D56500DC3997 /* Extention.swift */; };
 		2C9072F3261890450026FA50 /* Dishes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9072F2261890450026FA50 /* Dishes.swift */; };
 		2CAD4E8426186416005550FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAD4E8326186416005550FF /* AppDelegate.swift */; };
 		2CAD4E8626186416005550FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAD4E8526186416005550FF /* SceneDelegate.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C0238532618D56500DC3997 /* Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extention.swift; sourceTree = "<group>"; };
 		2C9072F2261890450026FA50 /* Dishes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dishes.swift; sourceTree = "<group>"; };
 		2CAD4E8026186416005550FF /* Sushi & Wine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sushi & Wine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CAD4E8326186416005550FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				2CAD4E9C261888F3005550FF /* MainViewController.swift */,
+				2C0238532618D56500DC3997 /* Extention.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 				2C9072F3261890450026FA50 /* Dishes.swift in Sources */,
 				2CAD4E8626186416005550FF /* SceneDelegate.swift in Sources */,
 				2CAD4E992618865A005550FF /* DishesCell.swift in Sources */,
+				2C0238542618D56500DC3997 /* Extention.swift in Sources */,
 				2CAD4E9D261888F3005550FF /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

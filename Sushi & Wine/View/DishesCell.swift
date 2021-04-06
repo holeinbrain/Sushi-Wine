@@ -9,7 +9,6 @@ import UIKit
 
 class DishesCell: UITableViewCell {
 
- 
   @IBOutlet weak var dishImage: UIImageView!
   @IBOutlet weak var dishName: UILabel!
   @IBOutlet weak var dishDescription: UILabel!
@@ -26,5 +25,4 @@ class DishesCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-
 }
